@@ -17,7 +17,6 @@ int main()
 {
     array<string, 6> screen;
     a(screen);
-    a(screen);
     for (int i=0;i<6;i++)
         cout<<screen[i]<< endl;
 
