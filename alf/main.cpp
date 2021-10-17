@@ -55,6 +55,8 @@ int main()
     c(screen); 
     i(screen);
     k(screen); 
+
+
     for (int i=0;i<6;i++)
         cout<<screen[i]<< endl;
     return 0;
