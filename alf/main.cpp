@@ -83,6 +83,15 @@ void s(array<string, 6> &s){
     s[5] +=" ====|| ";
 }
 
+void u(array<string, 6> &s){
+    s[0] +=" |     | ";
+    s[1] +=" |     | ";
+    s[2] +=" |     | ";
+    s[3] +=" |     | ";
+    s[4] +=" |     | ";
+    s[5] +=" ======  ";
+}
+
 
 
 int main()
@@ -97,6 +106,7 @@ int main()
     o(screen); 
     q(screen); 
     s(screen); 
+    u(screen); 
     for (int i=0;i<6;i++)
         cout<<screen[i]<< endl;
     return 0;
