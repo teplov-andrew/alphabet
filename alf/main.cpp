@@ -55,7 +55,14 @@ void m(array<string, 6> &s){
     s[5] +="|    | ";
 }
 
-
+void o(array<string, 6> &s){
+    s[0] +="  ====== ";
+    s[1] +=" |     | ";
+    s[2] +=" |     | ";
+    s[3] +=" |     | ";
+    s[4] +=" |     | ";
+    s[5] +=" ======  ";
+}
 
 int main()
 {
@@ -66,6 +73,7 @@ int main()
     i(screen);
     k(screen); 
     m(screen); 
+    o(screen); 
     for (int i=0;i<6;i++)
         cout<<screen[i]<< endl;
     return 0;
