@@ -64,6 +64,15 @@ void o(array<string, 6> &s){
     s[5] +=" ======  ";
 }
 
+void q(array<string, 6> &s){
+    s[0] +="  ====== ";
+    s[1] +=" |     | ";
+    s[2] +=" |     | ";
+    s[3] +=" |     | ";
+    s[4] +=" |_____| ";
+    s[5] +="     ||_ ";
+}
+
 int main()
 {
     array<string, 6> screen;
@@ -74,6 +83,7 @@ int main()
     k(screen); 
     m(screen); 
     o(screen); 
+    q(screen); 
     for (int i=0;i<6;i++)
         cout<<screen[i]<< endl;
     return 0;
