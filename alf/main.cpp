@@ -26,7 +26,7 @@ void c(array<string, 6> &s){
     s[1] +=" /       ";
     s[2] +="|        ";
     s[3] +="|        ";
-    s[4] +=" \\      ";
+    s[4] +=" \\       ";
     s[5] +="  ====== ";
 }
 void i(array<string, 6> &s){
@@ -111,6 +111,7 @@ void y(array<string, 6> &s){
     s[5] +="   ||    ";
 }
 
+
 void v(array<string, 6> &s){
     s[0] +="|    |";
     s[1] +="|    |";
@@ -118,6 +119,68 @@ void v(array<string, 6> &s){
     s[3] +=" \\  / ";
     s[4] +="  \\/  ";
     s[5] +="      ";
+}
+void t(array<string, 6> &s){
+    s[0] +="=======";
+    s[1] +="   ||  ";
+    s[2] +="   ||  ";
+    s[3] +="   ||  ";
+    s[4] +="   ||  ";
+    s[5] +="   ||  ";
+}
+void r(array<string, 6> &s){
+    s[0] +="//===\\\\ ";
+    s[1] +="|     | ";
+    s[2] +="|=====/ ";
+    s[3] +="|       ";
+    s[4] +="|       ";
+    s[5] +="\\_      ";
+}
+
+void p(array<string, 6> &s){
+    s[0] +="//====\\\\";
+    s[1] +="||   || ";
+    s[2] +=" ====== ";
+    s[3] +="||      ";
+    s[4] +="||      ";
+    s[5] +="||      ";
+}
+
+void n(array<string, 6> &s){
+    s[0] +=" ||----\\";
+    s[1] +=" ||     |";
+    s[2] +=" ||     |";
+    s[3] +=" ||     |";
+    s[4] +=" ||     |";
+    s[5] +=" ||     |";
+}
+
+void l(array<string, 6> &s){
+    s[0] +=" |       ";
+    s[1] +=" |       ";
+    s[2] +=" |       ";
+    s[3] +=" |       ";
+    s[4] +=" |       ";
+    s[5] +="  \\_____";
+}
+
+void J(array<string, 6> &s){
+    s[0] +="--------\\";
+    s[1] +="        |";
+    s[2] +="        |";
+    s[3] +="        |";
+    s[4] +="    |   |";
+    s[5] +="    |---/";
+}
+
+
+void h(array<string, 6> &s){
+    s[0] +="||   ||";
+    s[1] +="||   ||";
+    s[2] +="=======";
+    s[3] +="||   ||";
+    s[4] +="||   ||";
+    s[5] +="||   ||";
 }
 
 
@@ -129,7 +192,13 @@ int main()
     v(screen);
     b(screen);
     c(screen);
+    t(screen);
+    r(screen);
+    p(screen);
     i(screen);
+    n(screen);
+    l(screen);
+    h(screen);
     k(screen);
     m(screen);
     o(screen);
@@ -138,6 +207,7 @@ int main()
     u(screen);
     w(screen);
     y(screen);
+    J(screen);
     for (int i=0;i<6;i++)
         cout<<screen[i]<< endl;
     return 0;
