@@ -111,6 +111,15 @@ void y(array<string, 6> &s){
     s[5] +="   ||    ";
 }
 
+
+void v(array<string, 6> &s){
+    s[0] +="|    |";
+    s[1] +="|    |";
+    s[2] +="\\    /";
+    s[3] +=" \\  / ";
+    s[4] +="  \\/  ";
+    s[5] +="      ";
+}
 void t(array<string, 6> &s){
     s[0] +="=======";
     s[1] +="   ||  ";
@@ -180,9 +189,10 @@ int main()
 {
     array<string, 6> screen;
     a(screen);
-    t(screen);
+    v(screen);
     b(screen);
     c(screen);
+    t(screen);
     r(screen);
     p(screen);
     i(screen);
