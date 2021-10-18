@@ -29,6 +29,16 @@ void c(array<string, 6> &s){
     s[4] +=" \\      ";
     s[5] +="  ====== ";
 }
+
+
+void e(array<string, 6> &s){
+    s[0] +=" ====== ";
+    s[1] +=" ||     ";
+    s[2] +=" ||     ";
+    s[3] +=" ||==== ";
+    s[4] +=" ||     ";
+    s[5] +=" ||____ ";
+}
 void i(array<string, 6> &s){
     s[0] +="  ====== ";
     s[1] +="    ||   ";
@@ -119,6 +129,7 @@ int main()
     a(screen);
     b(screen); 
     c(screen); 
+    e(screen); 
     i(screen);
     k(screen); 
     m(screen); 
