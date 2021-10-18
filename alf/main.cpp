@@ -111,6 +111,14 @@ void y(array<string, 6> &s){
     s[5] +="   ||    ";
 }
 
+void l(array<string, 6> &s){
+    s[0] +=" |       ";
+    s[1] +=" |       ";
+    s[2] +=" |       ";
+    s[3] +=" |       ";
+    s[4] +=" |       ";
+    s[5] +="  \\_____";
+}
 
 void J(array<string, 6> &s){
     s[0] +="--------\\";
@@ -136,6 +144,10 @@ int main()
 {
     array<string, 6> screen;
     a(screen);
+    l(screen);
+    b(screen);
+    c(screen);
+    i(screen);
     b(screen);
     c(screen);
     i(screen);
