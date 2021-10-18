@@ -48,6 +48,17 @@ void e(array<string, 6> &s){
     s[4] +=" ||     ";
     s[5] +=" ||____ ";
 }
+
+void g(array<string, 6> &s){
+    s[0] +="  ====== ";
+    s[1] +=" /       ";
+    s[2] +="|        ";
+    s[3] +="|   =====";
+    s[4] +=" |     ||";
+    s[5] +="  ====== ";
+}
+
+
 void i(array<string, 6> &s){
     s[0] +="  ====== ";
     s[1] +="    ||   ";
@@ -218,40 +229,47 @@ void h(array<string, 6> &s){
     s[5] +="||   ||";
 }
 
+void d(array<string, 6> &s){
+    s[0] +="|=====\\";
+    s[1] +="|    |";
+    s[2] +="|    |";
+    s[3] +="|    |";
+    s[4] +="|    |";
+    s[5] +="|====/";
+}
+
 
 
 int main()
 {
     array<string, 6> screen;
-    f(screen);
     a(screen);
     b(screen); 
-    c(screen); 
+    c(screen);
+    d(screen);
     e(screen); 
-    z(screen);
-    b(screen);
-    c(screen);
-    i(screen);
-    x(screen);
-    c(screen);
-    v(screen);
-    t(screen);
-    r(screen);
-    p(screen);
-    n(screen);
-    l(screen);
+    f(screen);
+    g(screen); 
     h(screen);
-    k(screen);
-    m(screen);
-    o(screen);
-    q(screen);
-    s(screen);
-    u(screen);
-    w(screen);
-    y(screen);
+    i(screen);
     J(screen);
+    k(screen);
+    l(screen);
+    m(screen);
+    n(screen);
+    o(screen);
+    p(screen);
+    q(screen);
+    r(screen);
+    s(screen);
+    t(screen);
+    u(screen);
+    v(screen);
+    w(screen);
+    x(screen);
+    y(screen);
+    z(screen);
     for (int i=0;i<6;i++)
         cout<<screen[i]<< endl;
     return 0;
 }
-
