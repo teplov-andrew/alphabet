@@ -26,7 +26,7 @@ void c(array<string, 6> &s){
     s[1] +=" /       ";
     s[2] +="|        ";
     s[3] +="|        ";
-    s[4] +=" \\      ";
+    s[4] +=" \\       ";
     s[5] +="  ====== ";
 }
 void i(array<string, 6> &s){
@@ -111,6 +111,7 @@ void y(array<string, 6> &s){
     s[5] +="   ||    ";
 }
 
+
 void J(array<string, 6> &s){
     s[0] +="--------\\";
     s[1] +="        |";
@@ -121,6 +122,16 @@ void J(array<string, 6> &s){
 }
 
 
+void h(array<string, 6> &s){
+    s[0] +="||   ||";
+    s[1] +="||   ||";
+    s[2] +="=======";
+    s[3] +="||   ||";
+    s[4] +="||   ||";
+    s[5] +="||   ||";
+}
+
+
 int main()
 {
     array<string, 6> screen;
@@ -128,6 +139,7 @@ int main()
     b(screen);
     c(screen);
     i(screen);
+    h(screen);
     k(screen);
     m(screen);
     o(screen);
